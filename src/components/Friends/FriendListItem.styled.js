@@ -19,6 +19,6 @@ const Avatar = styled.img`
 `;
 
 const Name = styled.p`
-  color: grey;
+  color: blue;
 `;
 export { Status, Avatar, Name };
