@@ -24,7 +24,7 @@ export default function Profile({
       <ProfileDescrContainer>
         <ProfileAvatar src={avatar} alt="User avatar" width="150" />
         <ProfileName>{username}</ProfileName>
-        <UnderText>{tag}</UnderText>
+        <UnderText>@{tag}</UnderText>
         <UnderText>{location}</UnderText>
       </ProfileDescrContainer>
       <StatsList>
