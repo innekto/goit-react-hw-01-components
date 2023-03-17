@@ -8,15 +8,17 @@ const Status = styled.span`
   margin-right: 10px;
   ${props => {
     // console.log(props);
-    return props.isOnline ? 'background-color: green;' : 'background-color: red'
+    return props.isOnline
+      ? 'background-color: green;'
+      : 'background-color: red';
   }}
-    
 `;
 
-const Avatar = styled.img`   
- margin: 10px;`
+const Avatar = styled.img`
+  margin: 10px;
+`;
 
 const Name = styled.p`
- color:grey
- `
+  color: grey;
+`;
 export { Status, Avatar, Name };
